@@ -165,3 +165,32 @@
     font-weight: bold;
     margin-left: 10%;
 }
+/* end footer */
+
+/* home page */
+/* #cont{
+
+} */
+.divOne{
+    margin-right: 10%;
+    margin-left: 25%;
+    margin-top: 10%;
+    width: 100%; 
+}
+.divTwo{
+    margin-left: 15%;
+    margin-top: 10%;
+}
+#logo2{
+    height: 300px;
+    margin-top: 10%;
+}
+#logo3{
+    height: 100px;
+    width: 130px;
+    object-fit: cover;
+}
+.photos{
+    margin-top: 5%; 
+    margin-left: 12%;
+}

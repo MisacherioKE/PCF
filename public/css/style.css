@@ -177,18 +177,26 @@
 /* end footer */
 
 /* home page */
-/* #cont{
-
-} */
+#cont{
+    height: fit-content;
+    width: 100%;
+    /* border: 1px solid; */
+    padding-bottom: 5%;
+}
 .divOne{
     margin-right: 10%;
     margin-left: 25%;
     margin-top: 10%;
-    width: 100%; 
+    width: 70%; 
+    /* border: 1px solid; */
 }
 .divTwo{
-    margin-left: 15%;
+    margin-left: 10%;
     margin-top: 10%;
+    width: 70%;
+    /* border: 1px solid; */
+    margin-right: -15%;
+    /* height: max-content; */
 }
 #logo2{
     /* height: 400px;
@@ -203,13 +211,17 @@
     margin-right: 15px;
 }
 .photos{
-    margin-top: 5%; 
+    margin-top: 0%; 
     margin-left: 12%;
+    padding-bottom: 5%;
+    /* border: 1px solid; */
 }
 /* cont2 */
 #cont2{
     height: fit-content;
+    width: 100%;
     padding-bottom: 5%;
+    /* border: 1px solid; */
 }
 .team{
     /* margin-right: 10%; */
@@ -233,5 +245,21 @@
 /* cont3 */
 #cont3{
     height: fit-content;
+    width: 100%;
     padding-bottom: 5%;
 }
+/* .events{
+    margin-left: 25%;
+    margin-top: 10%;
+   }
+#theEvents{
+    height: 200px;
+    width: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+.eventsText{
+    margin-left: -50%;
+    margin-top: 10%
+} */

@@ -228,3 +228,10 @@
     margin-left: -25%;
     margin-top: 10%
 }
+/* end cont2 */
+
+/* cont3 */
+#cont3{
+    height: fit-content;
+    padding-bottom: 5%;
+}

@@ -55,13 +55,13 @@
 /* Main Section */
 #main{
     width: 100%;
-    height: 60vh;
+    height: fit-content;
    
 }
 .imgBckgrnd{
-    width: 70%;
+    width: 75%;
     height: 60vh;
-    margin-left: 15%;
+    margin-left: 12%;
     margin-top: 1%;
     border-radius: 10px;
 }
@@ -72,10 +72,11 @@
     display: flex;
     position: relative;
     width: 100%;
-    height: 140vh;
+    padding-bottom: 5%;
+    /* height: 140vh; */
    
 }
-.divA{
+/* .divA{
     position: absolute;
     left: 15%;
     top: 5%;
@@ -87,17 +88,22 @@
     border-radius: 10px;
     box-shadow: 5px 5px 10px black;
     
-}
-.divA a{
+} */
+/* .divA a{
     font-size: 25px;
     text-decoration: none;
     color: black;
-}
+} */
 .divB{
-    position: absolute;
+    margin-top: 5%;
+    margin-left: 12%;
+    width: 75%;
+    text-align: left;
+    /* position: absolute;
     right: 5%;
     width: 60%;
-    top: 5%;
+    top: 5%; */
+
    
 }
 .divB p{
@@ -107,9 +113,10 @@
 /* end content */
 /* footer */
 #footer{
-    height: 35vh;
+    /* height: 35vh; */
     position: relative;
-    width: 100%;
+  padding-bottom: 5%;
+    /* width: 100%; */
     /* border: 1px solid; */
    
 }
@@ -117,7 +124,7 @@
     width: 75%;
     position: absolute;
    top: 2%;
-   left: 18%;
+   left: 13%;
 }
 .media{
     position: absolute;
@@ -126,7 +133,7 @@
     align-items: center;
     /* justify-content: flex-end; */
    top: 35%;
-    right: 1%;
+    right: 5%;
     /* border: 1px solid; */
 }
 .media p{
@@ -141,12 +148,12 @@
 } */
 #btnInvolve{
     position: absolute;
-    right: 7%;
+    right: 10%;
     top: 15%;
 }
 .Location{
     position: absolute;
-    left: 18%;
+    left: 13%;
     top: 15%;
     /* border: 1px solid; */
     width: 500px;
@@ -198,6 +205,11 @@
 .photos{
     margin-top: 5%; 
     margin-left: 12%;
+}
+/* cont2 */
+#cont2{
+    height: fit-content;
+    padding-bottom: 5%;
 }
 .team{
     /* margin-right: 10%; */

@@ -135,10 +135,10 @@
     /* position: absolute;
     right: 15%; */
 }
-.insta{
+/* .insta{
     height: 50px;
     
-}
+} */
 #btnInvolve{
     position: absolute;
     right: 7%;
@@ -184,8 +184,9 @@
     margin-top: 10%;
 }
 #logo2{
-    height: 300px;
-    margin-top: 10%;
+    /* height: 400px;
+    width: 400px; */
+    margin-top: 0%;
 }
 #logo3{
     height: 100px;

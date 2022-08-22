@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/4f2385cc7b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+      <!-- Nav bar -->
+      <section class="nav">
+        <img class="img-fluid rounded" id="logo" src="/public/images/pillarsLogo.png" alt="">
+        <ul>
+            <li class="listItem"> <a id="menuItem" href="/public/index.html">Home</a></li>
+            <li class="listItem"> <a id="menuItem" href="#">About Us</a></li>
+            <li class="listItem"> <a id="menuItem" href="#">What We Do</a> </li>
+            <li class="listItem"> <a id="menuItem" href="#">News</a> </li>
+            <li class="listItem"> <a id="menuItem" href="#">Gallery</a></li>
+            <li class="listItem"> <a class="btn btn-outline-success" id="menuItem" href="#">Get Involved</a> </li>
+            <li class="listItem"> <a id="menuItem" href="#">Contact Us</a> </li>
+        </ul>
+        <!-- dropdown -->
+        <div id="drop" class="dropDown" style="display: none;">
+            <ul class="dropdownMenu">
+                <li><a class="dropdownItem" href="#">Who We Are</a></li>
+                <li><a class="dropdownItem" href="#">What We Do</a></li>
+                <li><a class="dropdownItem" href="#">Our Team</a></li>
+              </ul>
+        </div>
+
+    </section>
+    <!-- END OF NAV BAR -->
+
+    <!--Latest Events  -->
+    <section class="container-fluid" id="latestevents">
+        <h2>Latest events</h2>
+        <div class="row">
+            <div class="col">
+                <div class="gTech-info">
+                    <h3><u>GIRLS IN TECH PROGRAMME</u></h3>
+                    <p class="techText">We are proud of our tech training program cohort for successfully completing one month of training
+                        since the program started. we held a brief session to celebrate this milestone with our students. we are thrilled to see
+                        the progress they have made so far and to hear the wonderful feedback they shared regarding the program's impact on their learning journey.
+                    </p>
+                </div>
+              
+                <a href="#" class="btn btn-info btn-outline-success btn-lg">Read More</a>
+            </div>
+            <div class="col">
+                <div class="gTech-img">
+                    <img src="/public/images/img2.jpeg" alt="" class="img-fluid rounded">
+                </div>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="gTech-img">
+                    <img src="/public/images/img2.jpeg" alt="" class="img-fluid rounded">
+                </div>
+            </div>
+            <div class="col">
+                <div class="gTech-info">
+                    <h3><u>DAY OF THE AFRICAN CHILD</u></h3>
+                    <p class="techText">Pillars Care Foundation collaborated with other local community-based
+                        organizations in funding an event that brought together students from over 20 schools in Osiri 
+                        subcounty in Kisumu County to celebrate the day of the african child.
+                    </p>
+                </div>
+              
+                <a href="#" class="btn btn-info btn-outline-success btn-lg">Read More</a>
+
+        </div>
+        </div>
+    </section>
+    
+
+
+
+
+
+
+
+
+
+<!-- footer -->
+<section id="footer" class="container-fluid">
+    <hr class="line">
+    <div class="row">
+        <div class="col">
+            <div class="Location">
+                <span class="locationIcon"><i class="fa-solid fa-location-dot h1"></i></span>
+                  <p class="locText"></i>Along Kisii - Isebania Road, Banana Estate</p>
+                  <p class="address" >P.O Box 314-40400 <br>Suna,Migori </p>
+                  
+              </div>
+        </div>
+        <div class="col">
+            <button id="btnInvolve" class="btn btn-outline-success">Get Involved</button>   
+
+            <div class="media">
+                <p>Connect With Us</p>
+                <span><a href="https://web.facebook.com/pages/category/Nonprofit-organization/Pillars-care-farmers-foundation-2354092824875349/?_rdc=1&_rdr" target="_blank"><i class="fa-brands fa-facebook-square h1"></i></a></span>
+                <span><a href="#" target="_blank"><i class="fa-brands fa-instagram-square h1"></i></a></span>
+                <span><a href="https://api.whatsapp.com/send?phone=254720634437&app=facebook&entry_point=page_cta" target="_blank"><i class="fa-brands fa-whatsapp-square h1"></a></span>
+              </div>
+        </div>
+    </div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-firestore.js"></script>
+    <script src="/public/js/config.js"></script>
+    <script src="/public/js/index.js"></script>
+</body>
+</html>

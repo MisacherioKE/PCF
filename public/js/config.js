@@ -1,13 +1,13 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyDi8Rnn1mScQcAkOJq6mAYH8xo8b2SOKSQ",
-  authDomain: "pcfwebsite-487cd.firebaseapp.com",
-  projectId: "pcfwebsite-487cd",
-  storageBucket: "pcfwebsite-487cd.appspot.com",
-  messagingSenderId: "979073085844",
-  appId: "1:979073085844:web:ec2297839f785a0bdc9f81",
-  measurementId: "G-S8L450DBVC"
+  apiKey: "AIzaSyBPvFWKgyPVwM3LXUWjECoPnk-qaL35Dgw",
+  authDomain: "pcare-322da.firebaseapp.com",
+  projectId: "pcare-322da",
+  storageBucket: "pcare-322da.appspot.com",
+  messagingSenderId: "440536641372",
+  appId: "1:440536641372:web:e5ebebe28b2f21a4e7db99",
+  measurementId: "G-SZB0WKCGCD"
 };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+// Initialize App
+firebase.initializeApp(firebaseConfig);
+firebase.analytics();

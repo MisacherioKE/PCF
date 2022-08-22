@@ -263,3 +263,21 @@
     margin-left: -50%;
     margin-top: 10%
 } */
+/* Team */
+#theeTeam{
+    height: 65vh;
+    width: 100%;
+    
+}
+#theTeamB{
+    height: 55vh;
+    width: 100%;
+}
+.one{
+    height: 300px;
+    width: 350px;
+    margin-left: 25%;
+}
+.pOne{
+    margin-left: 25%;
+}

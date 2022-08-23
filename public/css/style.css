@@ -263,6 +263,7 @@
     margin-left: -50%;
     margin-top: 10%
 } */
+/* end cont3 */
 /* Team */
 #theeTeam{
     height: 65vh;
@@ -291,6 +292,21 @@
     height: fit-content;
     width: fit-content;
     /* border: 1px solid; */
+}
+/* end team */
+
+/* news */
+.gTech-info{
+    margin-left: 25%; 
+    margin-top: 10%;
+}
+.techText{
+    text-align: center;
+   
+}
+.aSk{
+    margin-left: 25%;
+    margin-top: 5%;
 }
 
 

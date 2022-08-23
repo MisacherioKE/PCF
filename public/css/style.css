@@ -267,17 +267,46 @@
 #theeTeam{
     height: 65vh;
     width: 100%;
-    
+}
+.Title{
+    text-align: center;
+    margin-bottom: 2%;
 }
 #theTeamB{
     height: 55vh;
     width: 100%;
 }
 .one{
-    height: 300px;
-    width: 350px;
+    height: fit-content;
+    width: fit-content;
     margin-left: 25%;
+    /* border: 1px solid; */
+}
+.one p{
+    text-align: center;
 }
 .pOne{
     margin-left: 25%;
+    margin-bottom: 10%;
+    height: fit-content;
+    width: fit-content;
+    /* border: 1px solid; */
+}
+
+
+/* get involved */
+#bMentor{
+    text-align: center;
+}
+.icons{
+   /* border: 1px solid; */
+   margin-left: 25%;
+   /* display: flexbox; */
+}
+.details input{
+ width: 50%;
+ margin-bottom: 10px;
+ border: none;
+ background-color: white;
+ border-radius: 20px;
 }

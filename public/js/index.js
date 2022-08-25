@@ -16,5 +16,5 @@ document.getElementById("menuItem").onmouseover =()=>{
 
 // get  involved btn
 document.getElementById("btnInvolve").onclick = ()=>{
-    window.location.href = "/public/html/getInvolved.html;"
+    window.location.href = "/public/html/getInvolved.html";
 }

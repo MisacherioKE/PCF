@@ -13,3 +13,8 @@ document.getElementById("menuItem").onmouseover =()=>{
 // document.getElementById("menuItem").onmouseleave =()=>{
 //     document.getElementById("drop").style.display ="none";
 // }
+
+// get  involved btn
+document.getElementById("btnInvolve").onclick = ()=>{
+    window.location.href = /public/html/getInvolved.html;
+}

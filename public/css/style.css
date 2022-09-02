@@ -326,3 +326,10 @@
  background-color: white;
  border-radius: 20px;
 }
+/* end getInvolved */
+
+/* Gallery */
+#mainGallery{
+    height: 60vh;
+    width: 100%;
+}

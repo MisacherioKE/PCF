@@ -354,4 +354,88 @@
 }
 .gallOne{
     margin-bottom: 25px;
+    position: relative;
+}
+.subDiv{
+    height: 280px;
+    width: 328px;
+    border-radius: 8px;
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+    background-color:gray;
+    display: none;
+    position: absolute;
+    top: 0; 
+}
+.subDiv p{
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    font-size: 14px;
+    margin-top: 20%;
+    font-weight: bold;
+}
+.gallOneA:hover .subDiv{
+    opacity: 0.8;
+    display: block;
+}
+.gallOneB:hover .subDiv{
+    opacity: 0.8;
+    display: block;
+}
+.gallOneC:hover .subDiv{
+    opacity: 0.8;
+    display: block;
+}
+.gallOneD:hover .subDiv{
+    opacity: 0.8;
+    display: block;
+}
+.gallOneE:hover .subDiv{
+    opacity: 0.8;
+    display: block;
+}
+.gallOneF:hover .subDiv{
+    opacity: 0.8;
+    display: block;
+}
+.gallOneG:hover .subDiv{
+    opacity: 0.8;
+    display: block;
+}
+.gallOneH:hover .subDiv{
+    opacity: 0.8;
+    display: block;
+}
+.gallOneI:hover .subDiv{
+    opacity: 0.8;
+    display: block;
+}
+.gallOneJ:hover .subDiv{
+    opacity: 0.8;
+    display: block;
+}
+.gallOneK:hover .subDiv{
+    opacity: 0.8;
+    display: block;
+}
+.gallOneL:hover .subDiv{
+    opacity: 0.8;
+    display: block;
+}
+.gallOneM:hover .subDiv{
+    opacity: 0.8;
+    display: block;
+}
+.gallOneN:hover .subDiv{
+    opacity: 0.8;
+    display: block;
+}
+.gallOneO:hover .subDiv{
+    opacity: 0.8;
+    display: block;
+}
+.gallOneP:hover .subDiv{
+    opacity: 0.8;
+    display: block;
 }

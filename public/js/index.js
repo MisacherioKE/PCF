@@ -44,7 +44,7 @@ document.getElementById("btnInvolve").onclick = ()=>{
 // }
 var i =0;
 var images =[];
-var time = 3000;
+var time = 5000;
 
 images[0]='/public/images/event3.jpeg';
 images[1]='/public/images/youthRep.jpeg';

@@ -343,3 +343,10 @@
     margin-bottom: 10vh;
     object-fit: cover;
 }
+#Gallery{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.gallOne{
+    margin-bottom: 20px;
+}

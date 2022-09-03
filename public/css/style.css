@@ -347,6 +347,11 @@
     padding-left: 100px;
     padding-right: 100px;
 }
+#Gallery img{
+    height: 280px;
+    width: 400px;
+    object-fit: cover;
+}
 .gallOne{
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }

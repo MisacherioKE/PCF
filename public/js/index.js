@@ -50,9 +50,11 @@ images[0]='/public/images/event3.jpeg';
 images[1]='/public/images/youthRep.jpeg';
 images[2]='/public/images/offtake.jpeg';
 images[3]='/public/images/kids.jpeg';
+// images.style.display ="cover";
 
 function changeImg (){
     // document.getElementById('slide').src = images[i];
+    
     document.slide.src = images[i];
     if( i < images.length - 1){
         i++;

@@ -113,7 +113,7 @@
 /* end content */
 /* footer */
 #footer{
-    /* height: 35vh; */
+    height: 35vh;
     position: relative;
   padding-bottom: 5%;
     /* width: 100%; */
@@ -141,6 +141,9 @@
     /* text-align: center; */
     /* position: absolute;
     right: 15%; */
+}
+.fa-youtube{
+    color: red;
 }
 /* .insta{
     height: 50px;

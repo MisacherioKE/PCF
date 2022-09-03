@@ -128,8 +128,10 @@
 }
 #copyright{
     /* border: 1px solid; */
+    width: fit-content;
     position: absolute;
    top:  15%;
+   left: 39%;
 }
 .media{
     position: absolute;

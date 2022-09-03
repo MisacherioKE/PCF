@@ -74,8 +74,8 @@
                 <div class="details">
                     <input type="text" placeholder="Full Names">
                     <input type="email" name="" id="" placeholder="Email">
-                    <textarea name="" id="" cols="40" rows="7" placeholder="Your Text Here" style="border: none; background-color: white; border-radius:20px;"></textarea>
-                    <button type="submit">Submit</button>
+                    <textarea name="" id="" cols="40" rows="7" placeholder="Your Text Here" style="border: none; background-color: white; border-radius:20px; margin-right: 15%;"></textarea>
+                    <button id="btnSub" type="submit">Submit</button>
                 </div>
             </div>
         </div>
@@ -112,6 +112,16 @@
               </div>
         </div>
         <div class="col">
+            <div id="copyright" class="row justify-content-center animate__animated animate__fadeInUp animate__delay-5s">
+                <div class="col-lg-6 text-center">
+                  <h5 class="footer">Copyright&copy; &#160;<script>
+                      document.write(new Date().getFullYear())
+                    </script><a> Pillars Care Foundation</a>
+                      All Rights Reserved</h5>
+                </div>
+              </div>
+        </div>
+        <div class="col">
             <button id="btnInvolve" class="btn btn-outline-success">Get Involved</button>   
 
             <div class="media">
@@ -124,6 +134,8 @@
               </div>
         </div>
     </div>
+
+    </section>
 
 
     <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>

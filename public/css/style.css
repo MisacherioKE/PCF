@@ -126,6 +126,11 @@
    top: 2%;
    left: 13%;
 }
+#copyright{
+    /* border: 1px solid; */
+    position: absolute;
+   bottom: 30%;
+}
 .media{
     position: absolute;
     width: 15%;
@@ -314,20 +319,63 @@
 
 
 /* get involved */
+#contact{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    /* border: 1px solid; */
+    position: relative;
+}
 #bMentor{
     text-align: center;
 }
 .icons{
    /* border: 1px solid; */
+   position: relative;
    margin-left: 25%;
-   /* display: flexbox; */
+   padding-left: 50px;
+   width: fit-content;
+   height: fit-content;
+  
 }
+.fa-mailboxe{
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    color: blue;
+}
+.fa-envelope{
+    position: absolute;
+    left: 2%;
+    bottom: 1%;
+    color: blue;
+
+}
+.fa-phone{
+    position: absolute;
+    left: 2%;
+    top: 30%;
+    color: blue;
+
+}
+
 .details input{
  width: 50%;
  margin-bottom: 10px;
  border: none;
  background-color: white;
  border-radius: 20px;
+}
+#btnSub{
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 10px;
+    color: green;
+    position: absolute;
+    bottom: 2%;
+}
+#btnSub:hover{
+    background-color: rgb(2, 59, 2);
+    color: white;
 }
 /* end getInvolved */
 

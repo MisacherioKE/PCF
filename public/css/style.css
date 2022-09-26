@@ -291,6 +291,7 @@
     height: fit-content;
     width: fit-content;
     margin-left: 25%;
+    /* border-radius: 50%; */
     /* border: 1px solid; */
 }
 .one p{

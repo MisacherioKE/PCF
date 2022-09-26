@@ -106,8 +106,21 @@
 
    
 }
+.divB h3{
+    font-family: 'Yellowtail', cursive;
+    color: blue;
+    text-decoration: underline;
+   
+}
 .divB p{
     font-size: 14px;
+}
+#vismis{
+    /* text-decoration: underline; */
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+ font-family: 'poppins', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 /* end content */
@@ -135,12 +148,13 @@
 }
 .media{
     position: absolute;
-    width: 15%;
+    width: 12%;
+    /* height: 50%; */
     /* display: flex; */
     align-items: center;
     /* justify-content: flex-end; */
-   top: 35%;
-    right: 5%;
+   top: 33%;
+    right: 8%;
     /* border: 1px solid; */
 }
 .media p{
@@ -200,6 +214,10 @@
     width: 70%; 
     /* border: 1px solid; */
 }
+.divOne h2{
+    font-family: 'Yellowtail', cursive;
+    color: green;
+}
 .divTwo{
     margin-left: 10%;
     margin-top: 10%;
@@ -226,6 +244,10 @@
     padding-bottom: 5%;
     /* border: 1px solid; */
 }
+/* .photos h2{
+    text-decoration: underline;
+    color: green;
+} */
 /* cont2 */
 #cont2{
     height: fit-content;
@@ -280,6 +302,8 @@
     width: 100%;
 }
 .Title{
+      font-family: 'Yellowtail', cursive;
+    color: green;
     text-align: center;
     margin-bottom: 2%;
 }
